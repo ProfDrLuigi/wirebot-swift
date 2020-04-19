@@ -9,12 +9,12 @@ let package = Package(
         .macOS(.v10_15)
     ],
     dependencies: [
-        .package(name: "WiredSwift", url: "https://github.com/nark/WiredSwift", from: "1.0.3"),
+        .package(name: "WiredSwift", url: "https://github.com/nark/WiredSwift", .branch("master")),
         .package(name: "swift-argument-parser", url: "https://github.com/apple/swift-argument-parser", from: "0.0.4"),
         .package(name: "Yams", url: "https://github.com/jpsim/Yams.git", from: "2.0.0"),
         .package(name: "Fuse", url: "https://github.com/krisk/fuse-swift", .branch("master")),
         .package(name: "FeedKit", url: "https://github.com/nmdias/FeedKit.git", from: "9.1.2"),
-        .package(name: "CLibreSSL", url: "https://github.com/vapor-community/clibressl.git", .branch("master")
+        .package(name: "CLibreSSL", url: "https://github.com/vapor-community/clibressl.git", .branch("master"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
